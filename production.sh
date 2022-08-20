@@ -11,7 +11,7 @@ npm run build
 bash ./backups/backup.sh
 
 # update files
-rsync -ruzv --delete ../public/ user@server:/home/integrative/public/
+rsync -ruzv --delete ./public/ user@server:/home/integrative/public/
 
 # restart docker container with new files
 ssh user@server "docker-compose down --remove-orphans && docker-compose up -d"
