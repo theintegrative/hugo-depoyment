@@ -1,8 +1,8 @@
 #! /bin/bash
 
 DATE=`date +%Y-%m-%d_%H`
-remote='p-int:~/public/'
-destination="/home/metrice/website/hugo/doks/backups/backup_${DATE}/"
+remote='remote-server:~/public/'
+destination="/your_folder/backups/backup_${DATE}/"
 
 if [[ ! -d ${destination} ]]
         then
