@@ -1,6 +1,3 @@
 # hugo-depoyment
 
-In the comming days/weeks this repository will be updated with some nice features.
-
-Use it and play with the files as you like
-
+This hugo deployment is moved to a gitlab ci pipeline that you can find [here](https://github.com/theintegrative/theintegrative.net). You can still use this repository but it will not be updated anymore.
